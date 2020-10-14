@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Chibinet v1.0</h1>
+    {% csrf_token %}
+    <p>Chibinet is Girl's Frontline styled SD character generator. It's based on DCGAN trained by WGAN-GP algorithm with prediction.</p>
+    <input type="button" value="GENERATE!" onclick="onGenerate();"/><br>
+    <img id='chibi' src="./image">
+
+    <script src="./static/chibinet/index.js"></script>
+</body>
+</html>
