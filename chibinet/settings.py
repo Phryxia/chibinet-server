@@ -26,7 +26,7 @@ SECRET_KEY = 's7*=8ayd@0s6k(f-n4y@$4n-=txh@txu%#cmp-utjv1v9#jorn'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['34.210.26.201', '127.0.0.1']
+ALLOWED_HOSTS = ['34.210.26.201', '127.0.0.1', 'chibinet.krissvector.moe']
 
 
 # Application definition
