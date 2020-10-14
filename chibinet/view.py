@@ -17,8 +17,7 @@ def index(request):
 def image(request):
     # Load generator model
     try:
-        G = torch.load('netG.pt')
-        G.cpu()
+        G = torch.load('netG.pt', map_location=torch.device('cpu'))
     except FileNotFoundError:
         print('Error: netG.pt is not found')
         G = None
